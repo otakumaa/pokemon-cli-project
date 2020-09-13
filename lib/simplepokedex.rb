@@ -1,6 +1,6 @@
-require "simplepokedex/version"
-
-module Simplepokedex
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "./simplepokedex/version" 
+require_relative "./simplepokedex/API"
+require_relative "./simplepokedex/CLI"
+require_relative "./simplepokedex/pokemon" 
+require "rest-client"
+require "json"
